@@ -1,6 +1,5 @@
 import type { Config } from "tailwindcss";
 import animate from "tailwindcss-animate";
-import transforms3d from "@xpd/tailwind-3dtransforms";
 
 const config: Config = {
   darkMode: ["class"],
@@ -60,6 +59,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [animate, transforms3d],
+  plugins: [animate],
 };
 export default config;

@@ -1,7 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { Check, ChefHat, Book, Users, Bell, Lock } from "lucide-react";
+import { Check, ChefHat, Book, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -13,8 +12,6 @@ import {
 } from "@/components/ui/card";
 
 export default function PricingPage() {
-  const [hoveredCard, setHoveredCard] = useState<number | null>(null);
-
   return (
     <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute inset-0 bg-grid-primary/[0.03] -z-10" />
